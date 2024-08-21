@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+hr {
+    width: 100%;
+}
+
+.cartao {
+    display: flex;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.idade {
+    color: hsl(227, 10%, 46%);
+    font-weight: 700;
+}
+
+.metricas {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 350px;
+    height: 130px;
+    text-align: center;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+}
+
+p {
+    color: hsl(227, 10%, 46%);
+    font-size: 24px;
+}
+
+
+.imagem-perfil {
+    border-radius: 50%;
+}

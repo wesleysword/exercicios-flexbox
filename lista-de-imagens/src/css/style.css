@@ -1,0 +1,51 @@
+html {
+    font-family: "Public Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pinturas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pinturas .pintura {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.informacoes {
+    color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+.subtitulo {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* objetivo ; recriar a imagem do figma
+passo 1: colocar as imagens uma do lado da outra ---
+passo 2: dar espaçamento entre as imagens 
+passo 3: colocar o nome da pintura e do autor por cima da imagem --- */
